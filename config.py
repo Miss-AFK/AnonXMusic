@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/II_ABOUT_AARAV_II")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LOVE_X_BIRDSS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AFKUpdates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AFKSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -78,7 +78,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/9c7e9685dae254d50911e.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/2870ceb1f67b41c559ec9.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
