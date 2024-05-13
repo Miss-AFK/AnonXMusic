@@ -122,8 +122,8 @@ async def get_thumb(videoid):
             font4 = ImageFont.truetype('LOKESHXMUSIC/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "LOKESH MUSIC", fill="white", font = font1, align ="left") 
-            image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
+            image4.text((10, 10), "AARU X MUSIC", fill="white", font = font1, align ="left") 
+            image4.text((670, 150), "NOW PLAYING", fill="blue", font = font2, stroke_width=2, stroke_fill="red", align ="left") 
 
             # title
             title1 = truncate(title)
@@ -135,9 +135,9 @@ async def get_thumb(videoid):
             duration = f"Duration : {duration} Mins"
             channel = f"Channel : {channel}"
 
-            image4.text((670, 450), text=views, fill="white", font = font4, align ="left") 
-            image4.text((670, 500), text=duration, fill="white", font = font4, align ="left") 
-            image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
+            image4.text((670, 450), text=views, fill="yellow", font = font4, align ="left") 
+            image4.text((670, 500), text=duration, fill="green", font = font4, align ="left") 
+            image4.text((670, 550), text=channel, fill="blue", font = font4, align ="left")
             
             image2 = ImageOps.expand(image2,border=20,fill=make_col())
             image2 = image2.convert('RGB')
