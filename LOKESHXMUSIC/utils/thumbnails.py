@@ -123,12 +123,12 @@ async def get_thumb(videoid):
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "AARU X MUSIC", fill="white", font = font1, align ="left") 
-            image4.text((670, 150), "NOW PLAYING", fill="blue", font = font2, stroke_width=2, stroke_fill="red", align ="left") 
+            image4.text((670, 150), "NOW PLAYING", fill="blue", font = font2, stroke_width=2, stroke_fill="green", align ="left") 
 
             # title
             title1 = truncate(title)
-            image4.text((670, 300), text=title1[0], fill="white", stroke_width=1, stroke_fill="white",font = font3, align ="left") 
-            image4.text((670, 350), text=title1[1], fill="white", stroke_width=1, stroke_fill="white", font = font3, align ="left") 
+            image4.text((670, 300), text=title1[0], fill="yellow", stroke_width=1, stroke_fill="black",font = font3, align ="left") 
+            image4.text((670, 350), text=title1[1], fill="white", stroke_width=1, stroke_fill="red", font = font3, align ="left") 
 
             # description
             views = f"Views : {views}"
